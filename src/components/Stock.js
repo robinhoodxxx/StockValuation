@@ -36,7 +36,7 @@ const Stock = ({ props, Delstock }) => {
                         TShares:
                     </span>
                     <span className='text-base font-medium text-yellow-600'>
-                        {Tshares.toLocaleString('en-IN')}
+                        {Tshares?.toLocaleString('en-IN')}
                     </span>
                 </div>
                 <div className='flex flex-col  lg:mx-2 mx-2 items-center justify-center'>
@@ -44,7 +44,7 @@ const Stock = ({ props, Delstock }) => {
                         Price(INR):
                     </span>
                     <span className='text-base font-medium text-yellow-600'>
-                        {price.toLocaleString('en-IN')}
+                        {price?.toLocaleString('en-IN')}
                     </span>
                 </div>
                 <div className='flex flex-col  lg:mx-2 mx-2 items-center justify-center'>
@@ -80,7 +80,7 @@ const Stock = ({ props, Delstock }) => {
                         RevenueCr(1YR):
                     </span>
                     <span className='text-base font-medium text-yellow-600'>
-                        {revenue.toLocaleString('en-IN')}
+                        {revenue?.toLocaleString('en-IN')}
                     </span>
                 </div>
                 <div className='flex flex-col p-2'>
@@ -88,7 +88,7 @@ const Stock = ({ props, Delstock }) => {
                         CMarket(INR):
                     </span>
                     <span className='text-base font-medium text-yellow-600'>
-                        {currentInr.toLocaleString('en-IN')}
+                        {currentInr?.toLocaleString('en-IN')}
                     </span>
                 </div>
                 <div className='flex flex-col p-2'>
@@ -96,7 +96,7 @@ const Stock = ({ props, Delstock }) => {
                         CMarket($):
                     </span>
                     <span className='text-base font-medium text-yellow-600'>
-                        {current$.toLocaleString()}
+                        {current$?.toLocaleString()}
                     </span>
                 </div>
 

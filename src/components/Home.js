@@ -197,8 +197,8 @@ const Home = () => {
             </div>
 
             <div className="flex flex-col border-2 border-blue-500 bg-slate-300 p-4 max-w-fit  ">
-                <span className="font-medium my-2">Current Market Value INR: <span className="font-bold text-orange-600 text-lg">{value.toLocaleString('en-IN')}</span></span>
-                <span className="font-medium">Current Market Value $: <span className="font-bold text-green-600 text-lg">{Math.round(value / dollar).toLocaleString()}</span></span>
+                <span className="font-medium my-2">Current Market Value INR: <span className="font-bold text-orange-600 text-lg">{value?.toLocaleString('en-IN')}</span></span>
+                <span className="font-medium">Current Market Value $: <span className="font-bold text-green-600 text-lg">{Math.round(value / dollar)?.toLocaleString()}</span></span>
             </div>
         </div>
     );
