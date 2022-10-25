@@ -105,7 +105,7 @@ const Home = () => {
 
                 <div className=' border-blue-300 border-2 lg:p-2 p-2 lg:m-4 bg-slate-100'>
 
-                    {error && <span className="text-red-500 font-medium">Enter all Fields</span>}
+                    {error && <span className="text-red-500 font-medium flex justify-center ">Enter all Fields</span>}
                     
                     <form className=" flex flex-col justify-center items-center">
 
