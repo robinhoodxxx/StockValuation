@@ -47,7 +47,7 @@ const Home = () => {
         setSharePrice('')
         setStockName('')
         setTotalShares('')
-        setValue('')
+        setValue(0)
         setrevenue('')
         seterror(false)
 
@@ -89,7 +89,7 @@ const Home = () => {
             , ...stock])
 
         console.log(stock)
-        clearall()
+      
 
     }
 
@@ -187,7 +187,7 @@ const Home = () => {
 
                     </form>
 
-                    <span className="font-medium">Market/Revenue : <span className="font-medium text-orange-400	">{Math.round(value / (revenue * Math.pow(10, 7))).toString()}</span></span>
+                    <span className="font-medium">Market/Revenue(P/E):<span className="font-medium text-orange-400	">{Math.round(value / (revenue * Math.pow(10, 7)))||0}</span></span>
 
                 </div>
 

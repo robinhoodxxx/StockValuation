@@ -49,7 +49,7 @@ const Stock = ({ props, Delstock }) => {
                 </div>
                 <div className='flex flex-col  lg:mx-2 mx-2 items-center justify-center'>
                     <span>
-                        M/R:
+                        P/E:
                     </span>
                     <span className='text-base font-medium text-yellow-600'>
                         {mpr}
