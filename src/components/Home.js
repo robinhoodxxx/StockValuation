@@ -176,10 +176,10 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <input className="my-5 h-8 px-3 text-white bg-green-500 rounded " type="submit" onClick={marketValue} />
+                            <input className="my-5 h-8 px-3 text-white bg-green-500 rounded cursor-pointer drop-shadow-lg " type="submit" onClick={marketValue} />
 
                             <button
-                                className="mx-3 bg-rose-500 px-3 py-1 rounded text-white"
+                                className="mx-3 bg-rose-500 px-3 py-1 rounded text-white drop-shadow-lg"
                                 onClick={reset}>
                                 Reset
                             </button>
