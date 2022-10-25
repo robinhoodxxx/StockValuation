@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/StockValuation/static/css/main.f3f8a5d4.css",
-    "main.js": "/StockValuation/static/js/main.a4f5653f.js",
+    "main.js": "/StockValuation/static/js/main.89f38c7c.js",
     "index.html": "/StockValuation/index.html",
     "main.f3f8a5d4.css.map": "/StockValuation/static/css/main.f3f8a5d4.css.map",
-    "main.a4f5653f.js.map": "/StockValuation/static/js/main.a4f5653f.js.map"
+    "main.89f38c7c.js.map": "/StockValuation/static/js/main.89f38c7c.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f8a5d4.css",
-    "static/js/main.a4f5653f.js"
+    "static/js/main.89f38c7c.js"
   ]
 }
